@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O melhor Designer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e674bba739.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo"></img>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Serviços</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contato</a></li>
+                    <i class="fas fa-times"></i>
+                </ul>
+                <i class="fas fa-bars"></i>
+            </nav>
+            <div class="header-text">
+                <p>Graphic Designer, Motion Designer & Full Stack Dev</p>
+                <h1>Eai! eu sou o <span>Victor Sinx</span><br><br>Faça seu orçamento!</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ----------ABOUT---------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">Sobre Mim</h1>
+                    <p>Victor Sinx é um jovem designer gráfico talentoso e inovador. 
+                        Ele domina as ferramentas e tecnologias do design, criando projetos visuais modernos. 
+                        Sua abordagem centrada no cliente e comunicação clara garantem a satisfação dos clientes. 
+                        
+                        Victor está sempre aprendendo e acompanhando as tendências do mercado. 
+                        Seus designs são visualmente atraentes e comunicam mensagens claras. 
+                        Ele busca criar conexões emocionais e impacto duradouro. 
+                        Victor Sinx é uma escolha inspiradora para qualquer projeto de design.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="openTab('skills')">Habilidades</p>
+                        <p class="tab-links" onclick="openTab('experience')">Experiência</p>
+                        <p class="tab-links" onclick="openTab('education')">Educação</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Graphic Design</span><br>Adobe Photoshop, Illustrator & CorelDraw ;</li>
+                            <li><span>Motion Design</span><br>Adobe After Effects, Premiere ;</li>
+                            <li><span>Full Stack Dev</span><br>Maior Afinidade com Python e JavaScript ;</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2021 - Atualmente</span><br>Trabalho Freelancer em grupos do Discord ;</li>
+                            <li><span>2019-2021</span><br>Fez pequenos trabalhos em algumas empresas ;</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2016</span><br>Formado pela IFTBA - Instituto Federal de Tecnologia da Bahia ;</li>
+                            <li><span>2017</span><br>Formação em Front, Back end autodidata ;</li>
+                            <li><span>2020</span><br>Educação em Design Gráfico pela IW Informática ;</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------SERVICES---------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Meus serviços</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa fa-crop"></i>
+                    <h2>Designer Gráfico</h2>
+                    <p>Em resumo, as habilidades em Adobe Photoshop e Illustrator de Victor Sinx são verdadeiramente impressionantes.<br> 
+                        Seja para criação de logotipos, peças publicitárias ou ilustrações, ele tem o conhecimento e a experiência necessários para levar qualquer projeto de design a um nível superior.</p>
+                    <a href="#">Saiba mais</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa fa-caret-square-o-right"></i>
+                    <h2>Motion Design</h2>
+                    <p>Com um conhecimento profundo das ferramentas de animação, como Adobe After Effects e Cinema 4D, Victor é capaz de criar transições suaves, efeitos visuais impressionantes e movimentos fluidos que aprimoram a experiência do espectador.</p>
+                    <a href="#">Saiba mais</a>
+
+                </div>
+                <div>
+
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Full Stack Dev</h2>
+                    <p>Victor Sinx é um programador Full Stack habilidoso e talentoso. Ele domina várias linguagens de programação, como JavaScript, Python e Java, e possui um profundo conhecimento dos principais frameworks e bibliotecas usadas na criação de aplicações web.</p>
+                    <a href="#">Saiba mais</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------PORTFOLIO--------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Meus serviços ;</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" alt="">
+                    <div class="layer">
+                        <h2>Discord Bots</h2>
+                        <p>Bots administrativos, de jogos, econômicos, registro, autoroles, autoreactions e mais.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" alt="">
+                    <div class="layer">
+                        <h2>Automações de tarefas</h2>
+                        <p>Deixe suas tarefas mais fáceis e utilizaveis com programas de aplicação.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" alt="">
+                    <div class="layer">
+                        <h2>Desenvolvimento de sites</h2>
+                        <p>Tenha seu próprio site, para qualquer nicho.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- ----------CONTACT---------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i> vsinxdesignerdev@comercial.com</p>
+                    <p><i class="fab fa-discord"></i> @victorsinx</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter-square"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Seu nome" required>
+                        <input type="email" name="Email" placeholder="Seu melhor email" required>
+                        <textarea name="Message" rows="6" placeholder="Sua mensagem"></textarea>
+                        <button type="submit" class="btn btn3">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright @victorsinx. Made with <i class="fas fa-heart"></i> by Victor Sinx</p>
+        </div>
+    </div>
+
+
+
+    <script>
+        var tabLinks = document.getElementsByClassName('tab-links');
+        var tabContents = document.getElementsByClassName('tab-contents');
+
+        function openTab(tabName) {
+            for (tabLink of tabLinks) {
+                tabLink.classList.remove('active-link');
+            }
+            for (tabContent of tabContents) {
+                tabContent.classList.remove('active-tab');
+            }
+            event.currentTarget.classList.add('active-link');
+            document.getElementById(tabName).classList.add('active-tab');
+        }
+
+        // JavaScript for handling the mobile navigation menu
+        document.querySelector('.fas.fa-bars').addEventListener('click', function () {
+            document.querySelector('nav ul').classList.toggle('show');
+        });
+
+        document.querySelector('.fas.fa-times').addEventListener('click', function () {
+            document.querySelector('nav ul').classList.remove('show');
+        });
+
+    </script>
+</body>
+
+</html>
